@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1525598966456.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "42EB74C5",
+    "lastKnownWriteTime" : 1525025202,
+    "last_content_update" : 1525598996021,
+    "path" : "~/Google Drive/AdminHome/wedding/Website/themes/hugo-icon/exampleSite/config.toml",
+    "project_path" : "themes/hugo-icon/exampleSite/config.toml",
+    "properties" : {
+        "cursorPosition" : "30,0",
+        "scrollLine" : "28"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

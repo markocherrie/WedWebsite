@@ -1,24 +1,26 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://quirky-mcclintock-a382f5.netlify.com/"
+baseURL = "https://www.example.com/"
 languageCode = "en-AU"
-title = "Mark and Emma's Wedding"
+title = "My Awesome Title"
 
 # Metadata
 [params]
-  author = "Mark and Emma"
-  description = "Wedding Website"
+  author = "Your name"
+  description = "Cool description"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/inchcolm.jpg"
-  title = ""
-  description = ""
+  img = "images/hero_bg.jpg"
+  title = "Create awesome things for better web"
+  description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
 
 # Navigation section
 [params.nav]
-  mission = "Details"
-  contact = "RSVP"
+  mission = "Our Mission"
+  services = "Services"
+  team = "The Team"
+  contact = "Get In Touch"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
@@ -38,39 +40,31 @@ title = "Mark and Emma's Wedding"
     [[params.mission.images.list]]
       img = "images/img_4.jpg"
 
-  
-
   [[params.mission.item]]
     weight = 1
-    name = "Travel"
-    title = "Travel"
-    description = "<p>If you are coming by car or taxi then direct yourself/the driver to Hawes Pier (South Queensferry, EH30 9TB). Aim for the forth road bridge and you’ll be grand!  If you are coming from Edinburgh then the 43 Lothian bus goes from St. Andrews Square. Once you have arrived then you will be embarking on the Cherrie Ferry, a once in a lifetime charter across the Forth. Bring a brolly as the weather might be shite!</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
+    name = "marketing"
+    title = "Marketing"
+    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
-    name = "accommodation"
-    title = "accommodation"
-    description = "<p>We have pre-booked lots of rooms at the Dakota hotel, the rooms are £x. We have this until the xth of June. You can get one of these rooms by quoting ‘cherrie wedding’ when making your booking with the hotel. </p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
+    name = "analysis"
+    title = "Resources"
+    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
- [[params.mission.item]]
+  [[params.mission.item]]
     weight = 3
-    name = "Food"
-    title = "Food"
-    description = "<p>We are really happy to have our all food catered for by Down the Hatch. This will be good, hearty Diner style food with a Canadian twist. Of course we also have you vegetarian, vegan, gluten free, dairy free and nut free peeps covered, but please let us know in the RSVP so that we can have this for you on the day. </p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
-
- [[params.mission.item]]
-    weight = 4
-    name = "Gifts"
-    title = "Gifts"
-    description = "<p>If you would like to give us a gift then please see the John Lewis gift list.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
-
-
-
+    name = "strategy"
+    title = "Strategy"
+    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Services section
 [params.services]
-  enable = false
-  video = false
+  enable = true
+  video = true
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Our Services"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
@@ -107,7 +101,7 @@ title = "Mark and Emma's Wedding"
 
 # Work section
 [params.work]
-  enable = false
+  enable = true
 
   [[params.work.item]]
     title = "Consectetur adipisicing"
@@ -151,7 +145,7 @@ title = "Mark and Emma's Wedding"
 
 # Team section
 [params.team]
-  enable = false
+  enable = true
   title = "Meet The Team"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
@@ -203,12 +197,18 @@ title = "Mark and Emma's Wedding"
 # Contact section
 [params.contact]
   enable = true
-  title = "RSVP"
-  message = "Please confirm that you can come (Friday/Saturday) and provide any details (dietary, mobility) that we need to know."
+  title = "Get In Touch"
+  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
   note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
-
+  github = "#"
+  twitter = "#"
+  facebook = "#"
+  vine = "#"
+  linkedin = "#"
+  instagram = "#"
+  
