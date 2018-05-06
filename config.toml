@@ -30,7 +30,7 @@ title = "Mark and Emma's Wedding"
     enable = true
 
     [[params.mission.images.list]]
-      img = "images/img_3.jpg"
+      img = "images/ahh.jpg"
     [[params.mission.images.list]]
       img = "images/maid.jpg"
     [[params.mission.images.list]]
