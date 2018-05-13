@@ -34,7 +34,7 @@ title = "Mark and Emma's Wedding"
     [[params.mission.images.list]]
       img = "images/maid.jpg"
     [[params.mission.images.list]]
-      img = "images/DTH.jpg"
+      img = "images/img_3.jpg"
     [[params.mission.images.list]]
       img = "images/img_4.jpg"
 
@@ -44,7 +44,7 @@ title = "Mark and Emma's Wedding"
     weight = 1
     name = "Travel"
     title = "Travel"
-    description = "<p><b>Car/Taxi</b><br/>Please direct yourself/the driver to <a href= 'https://goo.gl/maps/C9jbrT2bgHG2'>Hawes Pier (South Queensferry, EH30 9TB)</a>. There is free parking at Hawes Pier and the Scout Hall if you want to drive between the two.  Some local Taxi services are;<ul><li>Dalmeny Cars (0131////)</li><li>FROM CAROLINE</li></ul><b>Bus</b><br/>If you are coming from Edinburgh then the 43 Lothian bus (£1.70 fare) goes from St. Andrews Square. It takes approximately 50 minutes in total, which includes a short walk from Walker Drive.<br/><b>Train</b><br/>ScotRail run trains from Edinburgh Waverly to Dalmeny, which is an 8 minute walk /2 minute taxi to Hawes Pier.<br/><b>Ferry</b><br/>Once you have arrived in Hawes Pier then you will be embarking on the Cherrie Ferry, a once in a lifetime charter down the Forth. Bring a brolly as our Scottish weather could go either way…!</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
+    description = "<p><b>Car/Taxi</b><br/>Please direct yourself/the driver to <a href= 'https://goo.gl/maps/C9jbrT2bgHG2'>Hawes Pier (South Queensferry, EH30 9TB)</a>. There is free parking at Hawes Pier and the Scout Hall if you want to drive between the two.  Some local Taxi services are;<ul><li>Dalmeny Cars (0131 300 0767)</li><li>Jimmy's Private Hire (07866570212)</li></ul><b>Bus</b><br/>If you are coming from Edinburgh then the 43 Lothian bus (£1.70 fare) goes from St. Andrews Square. It takes approximately 50 minutes in total, which includes a short walk from Walker Drive.<br/><b>Train</b><br/>ScotRail run trains from Edinburgh Waverly to Dalmeny, which is an 8 minute walk /2 minute taxi to Hawes Pier.<br/><b>Ferry</b><br/>Once you have arrived in Hawes Pier then you will be embarking on the Cherrie Ferry, a once in a lifetime charter down the Forth. Bring a brolly as our Scottish weather could go either way…!</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
 
 
     
@@ -52,19 +52,19 @@ title = "Mark and Emma's Wedding"
     weight = 2
     name = "accommodation"
     title = "accommodation"
-    description = "<p>We have pre-booked lots of rooms at the <a href= 'http://edinburgh.dakotahotels.co.uk'>Dakota hotel</a>, the rooms are £x. We have this until the xth of June. You can get one of these rooms by quoting ‘cherrie wedding’ when making your booking with the hotel. </p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
+    description = "<p>We have pre-booked lots of rooms at the <a href= 'http://edinburgh.dakotahotels.co.uk'>Dakota hotel</a>, the classic double rooms are £155 with breakfast. We have this until the 21st of June. You can get one of these rooms by quoting ‘Taylor/Cherrie Wedding’ when making your booking with the hotel. </p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
     
  [[params.mission.item]]
     weight = 3
     name = "Food"
     title = "Food"
-    description = "<p>We are really happy to have our all food catered for by <a href='http://www.downthehatchcafe.com/'>Down the Hatch</a> There will be hearty sharing platters of diner style food (ribs and wings) with a Canadian twist.<br/><b>Dietary Requirements</b><br/>We have vegetarian, vegan, gluten free, dairy free and nut free options, so please let us know in your RSVP if this applies to you.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
+    description = "<p>We are really happy to have our all food catered for by <a href='https://www.instagram.com/downthehatchsq/'>Down the Hatch</a>. There will be hearty sharing platters of diner style food with a Canadian twist.<br/><b>Dietary Requirements</b><br/>We have vegetarian, vegan, gluten-free, dairy-free and nut-free options, so please let us know in your RSVP if this applies to you.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
 
  [[params.mission.item]]
     weight = 4
     name = "Gifts"
     title = "Gifts"
-    description = "<p>If you would like to give us a gift then please see the John Lewis gift list.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
+    description = "<p>The best gift is having you all there for our big day. If you would like to give us something extra, then we have prepared a small John Lewis gift list (link), with the password: ‘uniquecode’. However, we would be equally delighted with anything you would like to gift us.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>RSVP</a></p>"
 
 
 
@@ -206,7 +206,7 @@ title = "Mark and Emma's Wedding"
 [params.contact]
   enable = true
   title = "RSVP"
-  message = "Please confirm that you can come (Friday/Saturday) and provide any details (dietary, mobility) that we need to know."
+  message = "Please confirm that you can come (Friday/Saturday) and provide any details (dietary requirements) that we need to know."
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
